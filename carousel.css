@@ -4,6 +4,19 @@ html, body {
     background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
 }
 
+.bgimg {
+    background-image: url('src/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.bgimg-donate {
+    background-image: url('src/donate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
 .carousel {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
