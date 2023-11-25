@@ -1,19 +1,26 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
 }
 
 .bgimg {
     background-image: url('src/login.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: initial;
     }
 
 .bgimg-donate {
     background-image: url('src/donate.jpg');
+    background-size: cover;
+    background-position: initial;
+}
+
+.bgimg-visual {
+    background-image: url('src/visualization.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: initial;
+
 }
     
 
@@ -132,4 +139,33 @@ html, body {
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
+
+::-webkit-scrollbar {
+    /* background-color: #fff; */
+    width: 12px;
+    right: 8;
+}
+
+/* background of the scrollbar except button or resizer */
+/* ::-webkit-scrollbar-track {
+    background-color: #fff;
+} */
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb{
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #5b5b5b;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {
+    display:none;
+}
+
+
 
